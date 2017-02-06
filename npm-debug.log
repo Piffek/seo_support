@@ -1,0 +1,456 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bootstrap-sass
+20 silly mapToRegistry name bootstrap-sass
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bootstrap-sass',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bootstrap-sass',
+23 silly mapToRegistry   name: 'bootstrap-sass',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-sass
+25 silly fetchNamedPackageData gulp
+26 silly mapToRegistry name gulp
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'gulp',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'gulp',
+29 silly mapToRegistry   name: 'gulp',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/gulp
+31 silly fetchNamedPackageData jquery
+32 silly mapToRegistry name jquery
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'jquery',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'jquery',
+35 silly mapToRegistry   name: 'jquery',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/jquery
+37 silly fetchNamedPackageData laravel-elixir
+38 silly mapToRegistry name laravel-elixir
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'laravel-elixir',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'laravel-elixir',
+41 silly mapToRegistry   name: 'laravel-elixir',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/laravel-elixir
+43 silly fetchNamedPackageData laravel-elixir-vue-2
+44 silly mapToRegistry name laravel-elixir-vue-2
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'laravel-elixir-vue-2',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'laravel-elixir-vue-2',
+47 silly mapToRegistry   name: 'laravel-elixir-vue-2',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/laravel-elixir-vue-2
+49 silly fetchNamedPackageData laravel-elixir-webpack-official
+50 silly mapToRegistry name laravel-elixir-webpack-official
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'laravel-elixir-webpack-official',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'laravel-elixir-webpack-official',
+53 silly mapToRegistry   name: 'laravel-elixir-webpack-official',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/laravel-elixir-webpack-official
+55 silly fetchNamedPackageData lodash
+56 silly mapToRegistry name lodash
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'lodash',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'lodash',
+59 silly mapToRegistry   name: 'lodash',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/lodash
+61 silly fetchNamedPackageData vue
+62 silly mapToRegistry name vue
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'vue',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'vue',
+65 silly mapToRegistry   name: 'vue',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/vue
+67 silly fetchNamedPackageData vue-resource
+68 silly mapToRegistry name vue-resource
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'vue-resource',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'vue-resource',
+71 silly mapToRegistry   name: 'vue-resource',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/vue-resource
+73 verbose request uri https://registry.npmjs.org/bootstrap-sass
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 13:13:37
+76 verbose request id c9f5563bc7418ed1
+77 http request GET https://registry.npmjs.org/bootstrap-sass
+78 verbose request uri https://registry.npmjs.org/gulp
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 13:13:37
+81 http request GET https://registry.npmjs.org/gulp
+82 verbose request uri https://registry.npmjs.org/jquery
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 13:13:37
+85 http request GET https://registry.npmjs.org/jquery
+86 verbose request uri https://registry.npmjs.org/laravel-elixir
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 13:13:37
+89 http request GET https://registry.npmjs.org/laravel-elixir
+90 verbose request uri https://registry.npmjs.org/laravel-elixir-vue-2
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 13:13:37
+93 http request GET https://registry.npmjs.org/laravel-elixir-vue-2
+94 verbose request uri https://registry.npmjs.org/laravel-elixir-webpack-official
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 13:13:37
+97 http request GET https://registry.npmjs.org/laravel-elixir-webpack-official
+98 verbose request uri https://registry.npmjs.org/lodash
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 13:13:37
+101 http request GET https://registry.npmjs.org/lodash
+102 verbose request uri https://registry.npmjs.org/vue
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 13:13:37
+105 http request GET https://registry.npmjs.org/vue
+106 verbose request uri https://registry.npmjs.org/vue-resource
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 13:13:37
+109 http request GET https://registry.npmjs.org/vue-resource
+110 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+111 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+112 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+113 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+114 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+115 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+116 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+117 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+118 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+119 info attempt registry request try #2 at 13:13:47
+120 http request GET https://registry.npmjs.org/lodash
+121 info attempt registry request try #2 at 13:13:47
+122 http request GET https://registry.npmjs.org/laravel-elixir-vue-2
+123 info attempt registry request try #2 at 13:13:47
+124 http request GET https://registry.npmjs.org/laravel-elixir
+125 info attempt registry request try #2 at 13:13:47
+126 http request GET https://registry.npmjs.org/gulp
+127 info attempt registry request try #2 at 13:13:47
+128 http request GET https://registry.npmjs.org/bootstrap-sass
+129 info attempt registry request try #2 at 13:13:47
+130 http request GET https://registry.npmjs.org/vue
+131 info attempt registry request try #2 at 13:13:47
+132 http request GET https://registry.npmjs.org/laravel-elixir-webpack-official
+133 info attempt registry request try #2 at 13:13:47
+134 http request GET https://registry.npmjs.org/jquery
+135 info attempt registry request try #2 at 13:13:47
+136 http request GET https://registry.npmjs.org/vue-resource
+137 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+138 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+139 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+140 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+141 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+142 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+143 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+144 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+145 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=400
+146 info attempt registry request try #3 at 13:14:47
+147 http request GET https://registry.npmjs.org/laravel-elixir-vue-2
+148 info attempt registry request try #3 at 13:14:47
+149 http request GET https://registry.npmjs.org/vue-resource
+150 info attempt registry request try #3 at 13:14:47
+151 http request GET https://registry.npmjs.org/jquery
+152 info attempt registry request try #3 at 13:14:47
+153 http request GET https://registry.npmjs.org/lodash
+154 info attempt registry request try #3 at 13:14:47
+155 http request GET https://registry.npmjs.org/laravel-elixir
+156 info attempt registry request try #3 at 13:14:47
+157 http request GET https://registry.npmjs.org/vue
+158 info attempt registry request try #3 at 13:14:47
+159 http request GET https://registry.npmjs.org/gulp
+160 info attempt registry request try #3 at 13:14:47
+161 http request GET https://registry.npmjs.org/bootstrap-sass
+162 info attempt registry request try #3 at 13:14:47
+163 http request GET https://registry.npmjs.org/laravel-elixir-webpack-official
+164 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+164 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+164 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+164 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+164 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+164 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+164 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+164 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+164 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+164 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+164 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+164 silly fetchPackageMetaData  error for laravel-elixir-vue-2@^0.2.0 { Error: tunneling socket could not be established, statusCode=400
+164 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+164 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+164 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+164 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+164 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+164 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+164 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+164 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+164 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+164 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+165 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+165 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+165 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+165 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+165 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+165 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+165 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+165 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+165 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+165 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+165 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+165 silly fetchPackageMetaData  error for lodash@^4.16.2 { Error: tunneling socket could not be established, statusCode=400
+165 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+165 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+165 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+165 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+165 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+165 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+165 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+165 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+165 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+165 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+166 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+166 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+166 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+166 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+166 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+166 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+166 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+166 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+166 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+166 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+166 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+166 silly fetchPackageMetaData  error for jquery@^3.1.0 { Error: tunneling socket could not be established, statusCode=400
+166 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+166 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+166 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+166 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+166 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+166 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+166 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+166 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+166 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+166 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+167 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+167 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+167 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+167 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+167 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+167 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+167 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+167 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+167 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+167 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+167 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+167 silly fetchPackageMetaData  error for vue-resource@^1.0.3 { Error: tunneling socket could not be established, statusCode=400
+167 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+167 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+167 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+167 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+167 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+167 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+167 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+167 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+167 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+167 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+168 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+168 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+168 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+168 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+168 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+168 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+168 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+168 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+168 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+168 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+168 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+168 silly fetchPackageMetaData  error for gulp@^3.9.1 { Error: tunneling socket could not be established, statusCode=400
+168 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+168 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+168 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+168 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+168 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+168 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+168 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+168 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+168 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+168 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+169 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+169 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+169 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+169 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+169 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+169 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+169 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+169 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+169 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+169 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+169 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+169 silly fetchPackageMetaData  error for vue@^2.0.1 { Error: tunneling socket could not be established, statusCode=400
+169 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+169 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+169 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+169 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+169 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+169 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+169 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+169 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+169 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+169 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+170 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+170 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+170 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+170 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+170 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+170 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+170 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+170 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+170 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+170 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+170 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+170 silly fetchPackageMetaData  error for laravel-elixir@^6.0.0-9 { Error: tunneling socket could not be established, statusCode=400
+170 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+170 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+170 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+170 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+170 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+170 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+170 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+170 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+170 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+170 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+171 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+171 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+171 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+171 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+171 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+171 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+171 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+171 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+171 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+171 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+171 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+171 silly fetchPackageMetaData  error for bootstrap-sass@^3.3.7 { Error: tunneling socket could not be established, statusCode=400
+171 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+171 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+171 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+171 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+171 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+171 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+171 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+171 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+171 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+171 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+172 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=400
+172 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+172 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+172 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+172 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+172 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+172 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+172 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+172 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+172 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+172 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+172 silly fetchPackageMetaData  error for laravel-elixir-webpack-official@^1.0.2 { Error: tunneling socket could not be established, statusCode=400
+172 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+172 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+172 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+172 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+172 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+172 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+172 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+172 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+172 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+172 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+173 silly rollbackFailedOptional Starting
+174 silly rollbackFailedOptional Finishing
+175 silly runTopLevelLifecycles Finishing
+176 silly install printInstalled
+177 verbose stack Error: tunneling socket could not be established, statusCode=400
+177 verbose stack     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+177 verbose stack     at ClientRequest.g (events.js:291:16)
+177 verbose stack     at emitThree (events.js:116:13)
+177 verbose stack     at ClientRequest.emit (events.js:194:7)
+177 verbose stack     at Socket.socketOnData (_http_client.js:395:11)
+177 verbose stack     at emitOne (events.js:96:13)
+177 verbose stack     at Socket.emit (events.js:188:7)
+177 verbose stack     at readableAddChunk (_stream_readable.js:176:18)
+177 verbose stack     at Socket.Readable.push (_stream_readable.js:134:10)
+177 verbose stack     at TCP.onread (net.js:548:20)
+178 verbose cwd c:\xampp\blog
+179 error Windows_NT 10.0.14393
+180 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+181 error node v6.9.5
+182 error npm  v3.10.10
+183 error code ECONNRESET
+184 error network tunneling socket could not be established, statusCode=400
+185 error network This is most likely not a problem with npm itself
+185 error network and is related to network connectivity.
+185 error network In most cases you are behind a proxy or have bad network settings.
+185 error network
+185 error network If you are behind a proxy, please make sure that the
+185 error network 'proxy' config is set properly.  See: 'npm help config'
+186 verbose exit [ 1, true ]
