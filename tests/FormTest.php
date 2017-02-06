@@ -6,6 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class FormTest extends TestCase
 {
+	use DatabaseTransactions;
     /**
      * A basic test example.
      *
@@ -28,8 +29,9 @@ class FormTest extends TestCase
     	->click('Rejestracja')
     	->type('test','name')
     	->type('abcd@test.pl','email')
-    	->type('pass','password')
-    	->type('','password_confirmation')
-    	->press('Register');
+    	->type('password1','password')
+    	->type('password1','password_confirmation')
+    	->press('Register')
+    	->seePageIs('/register');
     }
 }
