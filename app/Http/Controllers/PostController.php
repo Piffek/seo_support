@@ -26,7 +26,7 @@ class PostController extends Controller
     }
 
     
-    public function show($id)
+    public function show($id,$title)
     {
     	$post = Posts::find($id);
 		 
@@ -127,7 +127,9 @@ class PostController extends Controller
 
     public function myPosts()
     {
+
     	$posts = Posts::whereuser_id(Auth::user()->id)->paginate(5);
+		$titles = Posts::whereuser_id(Auth::user()->id)->get();
     	return view('posts.myposts')->withPosts($posts);
     }
 
