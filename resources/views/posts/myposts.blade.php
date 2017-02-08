@@ -20,7 +20,9 @@
 				<div class="jumbotron">
 				  <h1>{{$post -> title}}</h1>
 				  {{$post->created_at}}
-				  <p><a class="btn btn-primary btn-lg" href="/posts/show/{{$post->id}}/{{$post->title}}" role="button">Wyswietl</a></p>
+
+				  <p><a class="btn btn-primary btn-lg" href="/posts/show/{{$post->id}}<?php echo "/".str_replace(' ', '_',$post->title) ?>" role="button">Wyswietl</a></p>
+
 				  <p><a class="btn btn-primary btn-lg" href="/posts/edit/{{$post->id}}" role="button">Edytuj</a></p>
 				</div>
 		    </div>

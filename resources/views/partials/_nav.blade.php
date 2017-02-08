@@ -20,8 +20,8 @@
 	       </ul>
 	        @if (Auth::guest())
 	        <ul class="nav navbar-nav navbar-right">
-			<a type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Logowanie</a>
-	           <a type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Rejestracja</a>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Logowanie</button>
+	           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Rejestracja</button>
 	         </ul>
 			@elseif(Auth::user()->id)
 			<ul class="nav navbar-nav navbar-right">
