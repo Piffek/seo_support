@@ -1,7 +1,7 @@
 /node_modules
 /public/storage
 /vendor
-public/ckeditor/**
+/public/ckeditor/**
 /.idea
 Homestead.json
 Homestead.yaml
