@@ -6,7 +6,7 @@
 		<div class="jumbotron">
 		  <h1>{{$posts -> title}}</h1>
 		  <p>{!! $posts -> body !!}</p>
-		    <p><a class="btn btn-primary btn-lg" href='/posts/show/{{$posts->id}}/{!!$posts->title!!}' role="button">Wyswietl</a></p>
+			<p><a class="btn btn-primary btn-lg" href="/posts/show/{{$posts->id}}<?php echo "/".str_replace(' ', '_',$posts->title) ?>" role="button">Wyswietl</a></p>
 		</div>
 		</div>
     </div>
