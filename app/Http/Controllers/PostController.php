@@ -98,8 +98,8 @@ class PostController extends Controller
         $post = new Posts;
         
 		$slug_array = array();
-			$aArr1 = array('ą', 'ę', 'ć','ó', 'ś','ń', 'ż', ' ');
-			$aArr2 = array('a', 'e', 'c','o', 's','n', 'z', '-');
+			$aArr1 = array('ą', 'ę', 'ć','ó', 'ś','ń', 'ż', ' ', 'ł');
+			$aArr2 = array('a', 'e', 'c','o', 's','n', 'z', '-', 'l');
 			//$slug_array = explode(',',$post->slug);
 			$slug_array = str_replace($aArr1, $aArr2, $request->slug);
 		
